@@ -1,0 +1,16 @@
+{
+  "name": "movie-database",
+  "version": "1.0.0",
+  "description": "## Table of Contents     - [Demo](#demo)     - [Installation](#installation)     - [Usage](#usage)     - [License](#license)     - [Contributing](#contributing)     - [Tests](#tests)     - [References](#references)     - [Deployment](#deployment)     - [Walkthrough Video](#walkthrough-video)     - [Author](#author)     - [Contacts](#contacts)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5"
+  }
+}
