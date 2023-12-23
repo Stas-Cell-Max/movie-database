@@ -4,8 +4,8 @@ const mysql = require('mysql2');
 // Create a Connection
 const connection = mysql.createConnection({
     host: 'localhost',     // or the IP address of MySQL server
-    user: 'yourusername',  //  MySQL username, often 'root'
-    password: 'yourpassword', //  MySQL password
+    user: 'root',  //  MySQL username, often 'root'
+    password: 'BootCamp2023', //  MySQL password
     database: 'movie_db'   // the name of the database that has to connect to
   });
 

@@ -8,8 +8,8 @@ app.use(express.json());
 // Set up the connection to the MySQL database
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'yourusername',
-  password: 'yourpassword',
+  user: 'root',
+  password: 'BootCamp2023',
   database: 'movie_db'
 });
 
@@ -75,6 +75,8 @@ app.delete('/api/movie/:id', (req, res) => {
         res.send('Movie deleted successfully!'); 
     });
 });
+
+
   
 
 
